@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#bookingSection {
+  background-image: url("democondo.jpg");
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  height: 55vh; /* Sets the height of the body to 100% of the viewport */
+  margin: 0; /* Removes default margin */
+}
+
+form {
+  background-color: white;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3), -3px -3px 6px rgba(0, 0, 0, 0.2); /* Multiple shadows */
+}
+
+#loginPanel {
+  display: none;
+}
